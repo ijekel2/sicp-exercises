@@ -1,6 +1,10 @@
 #lang planet neil/sicp
 
-#| Exercise 1.8 |#
+#|
+Exercise 1.8
+
+Working solution except for the edge case of x = 0.
+|#
 
 (define (square x) (* x x))
 
@@ -31,4 +35,5 @@ should be comparable to these answers.
 
 (cbrt 0.0001)
 (cbrt 10000000000000)
+
 

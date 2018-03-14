@@ -2,6 +2,8 @@
 #|
 Exercise 1.7
 
+Working solution except for the edge case of x = 0.
+
 Below is the original procedure for Newton's Method. Observe the behaviour when
 we run (sqrt 0.0001) and (sqrt 100,000,000,000,000). In the first case we get a result of
 0.032308. Compare this to the correct answer of 0.001 and we see a significant error.
@@ -40,6 +42,7 @@ This new condition is met when the change between two consecutive improved guess
 is less than (* guess 0.0001). This will new procedure will produce answers
 approximately equal to the correct answers of 0.01 and 3162277.66.
 |#
+
 
 (define (good-enough?-2 prev-guess guess x)
   (< (abs (- guess prev-guess)) (* guess 0.001)))
