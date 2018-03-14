@@ -30,8 +30,8 @@ In the second case the evaluator goes into an infinite loop providing no answer.
 
 ;;; Call the procedure
 
-(sqrt 0.0001)
-(sqrt 10000000000000)
+;;(sqrt 0.0001)
+;;(sqrt 10000000000000)
 
 
 #|
