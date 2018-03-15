@@ -107,5 +107,4 @@ defined above:
 (define (h n) (A 2 n)) --> 2^{2^n}
 
 
-
 |#
